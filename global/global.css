@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #3e2c41;
+}
+
+.nav-font {
+  font-family: "Signika", sans-serif;
+}
+
+.nav-font-brand {
+  font-family: "Lilita One", cursive;
+}
+
+.nav-trans {
+  transition: 500ms;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #6e85b2;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #3e2c41;
+  border-radius: 12px;
+}
+
+.grp-cards::-webkit-scrollbar {
+  width: 10px;
+}
+.grp-cards::-webkit-scrollbar-track {
+  background: transparent;
+}
+.grp-cards::-webkit-scrollbar-thumb {
+  background: #6e85b2;
+  border-radius: 12px;
+}
+
+@media (max-width: 768px) {
+  .NavRowList {
+    inset: 0 0 0 30%;
+    backdrop-filter: blur(1rem);
+    background-color: #3e2c41;
+    box-shadow: 0px 1px 2.2px rgba(0, 0, 0, 0.02),
+      0px 2.5px 5.3px rgba(0, 0, 0, 0.028), 0px 4.6px 10px rgba(0, 0, 0, 0.035),
+      0px 8.3px 17.9px rgba(0, 0, 0, 0.042),
+      0px 15.5px 33.4px rgba(0, 0, 0, 0.05), 0px 37px 80px rgba(0, 0, 0, 0.07);
+    transition: 200ms ease;
+  }
+}
