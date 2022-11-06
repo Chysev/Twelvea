@@ -1,8 +1,8 @@
 
-const tropa = () => {
+const page = () => {
     return (
         <div>tropa</div>
     )
 }
 
-export default tropa
+export default page

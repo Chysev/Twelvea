@@ -27,7 +27,7 @@ const NavList = () => {
                 <ul className="flex items-center gap-[2.8rem] 768max:fixed 768max:my-auto 
                 768max:mx-[5rem] 768max:flex-col 768max:items-center 768max:p-[min(20vh,_10rem)_2em]">
 
-                    <li className=" hover:text-[#5C527F] text-[#6E85B2] font-[700] cursor-pointer">
+                    <li className=" hover:text-[#5C527F] text-[#6E85B2] font-[600] cursor-pointer">
                         <Link href="/">
                             <p className="text-[16px] nav-font">
                                 Home
@@ -36,7 +36,7 @@ const NavList = () => {
                     </li>
 
 
-                    <li className=" hover:text-[#5C527F] text-[#6E85B2] font-[700] cursor-pointer">
+                    <li className=" hover:text-[#5C527F] text-[#6E85B2] font-[600] cursor-pointer">
                         <Link href="/about">
                             <p className="text-[16px] nav-font">
                                 About
@@ -45,7 +45,7 @@ const NavList = () => {
                     </li>
 
 
-                    <li className=" hover:text-[#5C527F] text-[#6E85B2] font-[700] cursor-pointer">
+                    <li className=" hover:text-[#5C527F] text-[#6E85B2] font-[600] cursor-pointer">
                         <Link href="/tropa">
                             <p className="text-[16px] nav-font">
                                 Tropa
@@ -53,7 +53,7 @@ const NavList = () => {
                         </Link>
                     </li>
 
-                    <li className=" hover:text-[#5C527F] text-[#6E85B2] font-[700] cursor-pointer">
+                    <li className=" hover:text-[#5C527F] text-[#6E85B2] font-[600] cursor-pointer">
                         <Link href="/memories">
                             <p className="text-[16px] nav-font">
                                 Memories
@@ -61,7 +61,7 @@ const NavList = () => {
                         </Link>
                     </li>
 
-                    <li className=" hover:text-[#5C527F] text-[#6E85B2] font-[700] cursor-pointer">
+                    <li className=" hover:text-[#5C527F] text-[#6E85B2] font-[600] cursor-pointer">
                         <Link href="/devnote">
                             <p className="text-[16px] nav-font">
                                 DevNote
