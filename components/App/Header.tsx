@@ -17,7 +17,7 @@ const Header = () => {
 
     useEffect(() => {
         const navhandler = () => {
-            if (window.scrollY >= 80) {
+            if (window.scrollY >= 10) {
                 setNavbar(true)
             } else {
                 setNavbar(false)
