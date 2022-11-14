@@ -2,18 +2,9 @@
 import { motion } from "framer-motion"
 import { useRef } from "react"
 
-const url = 'https://12api.pages.dev/datas/12ADatabase.json'
+import datas from '../../data/twelveadatas.json'
 
-export async function getServerSideProps() {
-
-    const res = await fetch(url)
-    const datas = await res.json()
-
-    return { props: { datas } }
-}
-
-
-const Layer1 = ({ datas }) => {
+const Layer1 = (props) => {
 
     const scrollRef = useRef(null)
 
@@ -27,6 +18,8 @@ const Layer1 = ({ datas }) => {
     }
 
 
+
+
     return (
         <div className="flex" >
 
@@ -36,14 +29,14 @@ const Layer1 = ({ datas }) => {
                     variants={Logo}
                     initial="hidden"
                     animate="show"
-                    transition={{ ease: "easeOut", duration: 3 }}
+                    transition={{ ease: "easeOut", duration: 3, stiffness: 100 }}
 
                     className="flex max-h-[600px] max-w-[1050px]  border-0 m-auto">
                     {
-                        datas.map((datas: any) => (
+                        datas.map((datas, index) => (
                             <img
                                 className="w-[100%] h-[100%] rounded-[37px]"
-                                key={datas.id}
+                                key={index}
                                 src={datas.Logo} alt="" />
                         ))
                     }
@@ -53,14 +46,14 @@ const Layer1 = ({ datas }) => {
                     ref={scrollRef}
                     className="grp-cards py-[10px] max-w-[1023px] w-[100%] m-auto flex overflow-x-scroll">
                     {
-                        datas.map((datas: any) => (
+                        datas.map((datas, index) => (
                             <motion.img
-                                initial={{ y: -200 }}
+                                initial={{ y: -300 }}
                                 whileInView={{ y: 0 }}
-                                transition={{ ease: "easeOut", duration: 1 }}
+                                transition={{ ease: "easeOut", duration: 1, stiffness: 100 }}
                                 viewport={{ root: scrollRef }}
                                 className="max-h-[400px] rounded-[27px] px-[5px] max-w-[500px] w-[100%] h-[100%]"
-                                key={datas.id}
+                                key={index}
                                 src={datas.image} alt="" />
                         ))
                     }
