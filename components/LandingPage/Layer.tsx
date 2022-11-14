@@ -4,7 +4,7 @@ import { useRef } from "react"
 
 import datas from '../../data/twelveadatas.json'
 
-const Layer1 = (props) => {
+const Layer1 = () => {
 
     const scrollRef = useRef(null)
 
@@ -47,11 +47,7 @@ const Layer1 = (props) => {
                     className="grp-cards py-[10px] max-w-[1023px] w-[100%] m-auto flex overflow-x-scroll">
                     {
                         datas.map((datas, index) => (
-                            <motion.img
-                                initial={{ y: -300 }}
-                                whileInView={{ y: 0 }}
-                                transition={{ ease: "easeOut", duration: 1, stiffness: 100 }}
-                                viewport={{ root: scrollRef }}
+                            <img
                                 className="max-h-[400px] rounded-[27px] px-[5px] max-w-[500px] w-[100%] h-[100%]"
                                 key={index}
                                 src={datas.image} alt="" />
