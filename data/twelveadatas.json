@@ -3,6 +3,6 @@
     "Logo": "../public/image/12A.svg"
   },
   {
-    "image": "../public/image/card.jpg"
+    "image": "https://raw.githubusercontent.com/Chysev/Twelvea/main/public/card.jpg"
   }
 ]
