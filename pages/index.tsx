@@ -1,4 +1,4 @@
-
+import Head from "next/head"
 
 // Component
 import Layer from "../components/LandingPage/Layer"
@@ -6,7 +6,16 @@ import Layer from "../components/LandingPage/Layer"
 
 const Home = () => {
 
-    return <Layer />
+    return (
+        <>
+            <Head>
+                <title>
+                    Twelve A | Home
+                </title>
+            </Head>
+            <Layer />
+        </>
+    )
 
 }
 
