@@ -39,17 +39,6 @@ body {
   border-radius: 12px;
 }
 
-.grp-cards::-webkit-scrollbar {
-  width: 10px;
-}
-.grp-cards::-webkit-scrollbar-track {
-  background: transparent;
-}
-.grp-cards::-webkit-scrollbar-thumb {
-  background: #6e85b2;
-  border-radius: 12px;
-}
-
 @media (max-width: 768px) {
   .NavRowList {
     inset: 0 0 0 30%;

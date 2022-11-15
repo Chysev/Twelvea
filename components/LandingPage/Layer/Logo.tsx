@@ -16,7 +16,6 @@ const Logo = () => {
         swipeToSlide: true,
         slidesToShow: 1,
         slidesToScroll: 1,
-
     };
 
     const animation = {
