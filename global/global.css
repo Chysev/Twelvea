@@ -18,7 +18,8 @@ body {
   font-family: "Signika", sans-serif;
 }
 
-.nav-font-brand {
+.nav-font-brand,
+.content__not_available {
   font-family: "Lilita One", cursive;
 }
 

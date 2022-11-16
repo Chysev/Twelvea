@@ -50,6 +50,8 @@ const Classcards = () => {
         ]
     };
 
+    const imagestyle = `max-h-[490px] m-auto rounded-[27px] px-[5px] max-w-[400px] w-[100%] h-[100%]`
+
     return (
         <div>
             <Slider {...settings}>
@@ -57,7 +59,7 @@ const Classcards = () => {
                     {
                         datas.slice(0, 1).map((datas, index) => (
                             <img
-                                className="max-h-[490px] m-auto rounded-[27px] px-[5px] max-w-[400px] w-[100%] h-[100%]"
+                                className={imagestyle}
                                 key={index}
                                 src={datas.image} alt="" />
                         ))
@@ -68,7 +70,7 @@ const Classcards = () => {
                     {
                         datas.slice(1, 2).map((datas, index) => (
                             <img
-                                className="max-h-[490px] m-auto rounded-[27px] px-[5px] max-w-[400px] w-[100%] h-[100%]"
+                                className={imagestyle}
                                 key={index}
                                 src={datas.image} alt="" />
                         ))
@@ -79,7 +81,7 @@ const Classcards = () => {
                     {
                         datas.slice(2, 3).map((datas, index) => (
                             <img
-                                className="max-h-[490px] m-auto rounded-[27px] px-[5px] max-w-[400px] w-[100%] h-[100%]"
+                                className={imagestyle}
                                 key={index}
                                 src={datas.image} alt="" />
                         ))
@@ -90,7 +92,7 @@ const Classcards = () => {
                     {
                         datas.slice(3, 4).map((datas, index) => (
                             <img
-                                className="max-h-[490px] m-auto rounded-[27px] px-[5px] max-w-[400px] w-[100%] h-[100%]"
+                                className={imagestyle}
                                 key={index}
                                 src={datas.image} alt="" />
                         ))
@@ -101,7 +103,7 @@ const Classcards = () => {
                     {
                         datas.slice(4, 5).map((datas, index) => (
                             <img
-                                className="max-h-[490px] m-auto rounded-[27px] px-[5px] max-w-[400px] w-[100%] h-[100%]"
+                                className={imagestyle}
                                 key={index}
                                 src={datas.image} alt="" />
                         ))
@@ -112,7 +114,7 @@ const Classcards = () => {
                     {
                         datas.slice(5, 6).map((datas, index) => (
                             <img
-                                className="max-h-[490px] m-auto rounded-[27px] px-[5px] max-w-[400px] w-[100%] h-[100%]"
+                                className={imagestyle}
                                 key={index}
                                 src={datas.image} alt="" />
                         ))
@@ -123,7 +125,7 @@ const Classcards = () => {
                     {
                         datas.slice(6, 7).map((datas, index) => (
                             <img
-                                className="max-h-[490px] m-auto rounded-[27px] px-[5px] max-w-[400px] w-[100%] h-[100%]"
+                                className={imagestyle}
                                 key={index}
                                 src={datas.image} alt="" />
                         ))
@@ -134,7 +136,7 @@ const Classcards = () => {
                     {
                         datas.slice(7, 8).map((datas, index) => (
                             <img
-                                className="max-h-[490px] m-auto rounded-[27px] px-[5px] max-w-[400px] w-[100%] h-[100%]"
+                                className={imagestyle}
                                 key={index}
                                 src={datas.image} alt="" />
                         ))
@@ -145,7 +147,7 @@ const Classcards = () => {
                     {
                         datas.slice(8, 9).map((datas, index) => (
                             <img
-                                className="max-h-[490px] m-auto rounded-[27px] px-[5px] max-w-[400px] w-[100%] h-[100%]"
+                                className={imagestyle}
                                 key={index}
                                 src={datas.image} alt="" />
                         ))
@@ -156,7 +158,7 @@ const Classcards = () => {
                     {
                         datas.slice(9, 10).map((datas, index) => (
                             <img
-                                className="max-h-[490px] m-auto rounded-[27px] px-[5px] max-w-[400px] w-[100%] h-[100%]"
+                                className={imagestyle}
                                 key={index}
                                 src={datas.image} alt="" />
                         ))
@@ -167,7 +169,7 @@ const Classcards = () => {
                     {
                         datas.slice(10, 11).map((datas, index) => (
                             <img
-                                className="max-h-[490px] m-auto rounded-[27px] px-[5px] max-w-[400px] w-[100%] h-[100%]"
+                                className={imagestyle}
                                 key={index}
                                 src={datas.image} alt="" />
                         ))
@@ -178,7 +180,7 @@ const Classcards = () => {
                     {
                         datas.slice(11, 12).map((datas, index) => (
                             <img
-                                className="max-h-[490px] m-auto rounded-[27px] px-[5px] max-w-[400px] w-[100%] h-[100%]"
+                                className={imagestyle}
                                 key={index}
                                 src={datas.image} alt="" />
                         ))
@@ -189,7 +191,7 @@ const Classcards = () => {
                     {
                         datas.slice(12, 13).map((datas, index) => (
                             <img
-                                className="max-h-[490px] m-auto rounded-[27px] px-[5px] max-w-[400px] w-[100%] h-[100%]"
+                                className={imagestyle}
                                 key={index}
                                 src={datas.image} alt="" />
                         ))
@@ -200,7 +202,7 @@ const Classcards = () => {
                     {
                         datas.slice(13, 14).map((datas, index) => (
                             <img
-                                className="max-h-[490px] m-auto rounded-[27px] px-[5px] max-w-[400px] w-[100%] h-[100%]"
+                                className={imagestyle}
                                 key={index}
                                 src={datas.image} alt="" />
                         ))
@@ -211,7 +213,7 @@ const Classcards = () => {
                     {
                         datas.slice(14, 15).map((datas, index) => (
                             <img
-                                className="max-h-[490px] m-auto rounded-[27px] px-[5px] max-w-[400px] w-[100%] h-[100%]"
+                                className={imagestyle}
                                 key={index}
                                 src={datas.image} alt="" />
                         ))
@@ -222,7 +224,7 @@ const Classcards = () => {
                     {
                         datas.slice(15, 16).map((datas, index) => (
                             <img
-                                className="max-h-[490px] m-auto rounded-[27px] px-[5px] max-w-[400px] w-[100%] h-[100%]"
+                                className={imagestyle}
                                 key={index}
                                 src={datas.image} alt="" />
                         ))
