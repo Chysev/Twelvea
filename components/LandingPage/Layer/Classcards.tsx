@@ -209,7 +209,7 @@ const Classcards = () => {
 
                 <div>
                     {
-                        datas.slice(12, 15).map((datas, index) => (
+                        datas.slice(14, 15).map((datas, index) => (
                             <img
                                 className="max-h-[490px] m-auto rounded-[27px] px-[5px] max-w-[400px] w-[100%] h-[100%]"
                                 key={index}
