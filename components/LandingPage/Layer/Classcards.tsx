@@ -18,7 +18,7 @@ const Classcards = () => {
 
     const settings = {
         className: "py-[10px]  max-w-[1023px] w-[100%] m-auto",
-        dots: true,
+        dots: false,
         autoplay: true,
         speed: 1000,
         autoplaySpeed: 3000,
@@ -35,7 +35,7 @@ const Classcards = () => {
                     slidesToShow: 2,
                     slidesToScroll: 1,
                     infinite: true,
-                    dots: true
+                    dots: false
                 }
             },
             {
@@ -44,7 +44,7 @@ const Classcards = () => {
                     slidesToShow: 1,
                     slidesToScroll: 1,
                     infinite: true,
-                    dots: true
+                    dots: false
                 }
             },
         ]
