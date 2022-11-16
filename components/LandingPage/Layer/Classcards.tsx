@@ -118,6 +118,116 @@ const Classcards = () => {
                         ))
                     }
                 </div>
+
+                <div>
+                    {
+                        datas.slice(6, 7).map((datas, index) => (
+                            <img
+                                className="max-h-[490px] m-auto rounded-[27px] px-[5px] max-w-[400px] w-[100%] h-[100%]"
+                                key={index}
+                                src={datas.image} alt="" />
+                        ))
+                    }
+                </div>
+
+                <div>
+                    {
+                        datas.slice(7, 8).map((datas, index) => (
+                            <img
+                                className="max-h-[490px] m-auto rounded-[27px] px-[5px] max-w-[400px] w-[100%] h-[100%]"
+                                key={index}
+                                src={datas.image} alt="" />
+                        ))
+                    }
+                </div>
+
+                <div>
+                    {
+                        datas.slice(8, 9).map((datas, index) => (
+                            <img
+                                className="max-h-[490px] m-auto rounded-[27px] px-[5px] max-w-[400px] w-[100%] h-[100%]"
+                                key={index}
+                                src={datas.image} alt="" />
+                        ))
+                    }
+                </div>
+
+                <div>
+                    {
+                        datas.slice(9, 10).map((datas, index) => (
+                            <img
+                                className="max-h-[490px] m-auto rounded-[27px] px-[5px] max-w-[400px] w-[100%] h-[100%]"
+                                key={index}
+                                src={datas.image} alt="" />
+                        ))
+                    }
+                </div>
+
+                <div>
+                    {
+                        datas.slice(10, 11).map((datas, index) => (
+                            <img
+                                className="max-h-[490px] m-auto rounded-[27px] px-[5px] max-w-[400px] w-[100%] h-[100%]"
+                                key={index}
+                                src={datas.image} alt="" />
+                        ))
+                    }
+                </div>
+
+                <div>
+                    {
+                        datas.slice(11, 12).map((datas, index) => (
+                            <img
+                                className="max-h-[490px] m-auto rounded-[27px] px-[5px] max-w-[400px] w-[100%] h-[100%]"
+                                key={index}
+                                src={datas.image} alt="" />
+                        ))
+                    }
+                </div>
+
+                <div>
+                    {
+                        datas.slice(12, 13).map((datas, index) => (
+                            <img
+                                className="max-h-[490px] m-auto rounded-[27px] px-[5px] max-w-[400px] w-[100%] h-[100%]"
+                                key={index}
+                                src={datas.image} alt="" />
+                        ))
+                    }
+                </div>
+
+                <div>
+                    {
+                        datas.slice(13, 14).map((datas, index) => (
+                            <img
+                                className="max-h-[490px] m-auto rounded-[27px] px-[5px] max-w-[400px] w-[100%] h-[100%]"
+                                key={index}
+                                src={datas.image} alt="" />
+                        ))
+                    }
+                </div>
+
+                <div>
+                    {
+                        datas.slice(12, 15).map((datas, index) => (
+                            <img
+                                className="max-h-[490px] m-auto rounded-[27px] px-[5px] max-w-[400px] w-[100%] h-[100%]"
+                                key={index}
+                                src={datas.image} alt="" />
+                        ))
+                    }
+                </div>
+
+                <div>
+                    {
+                        datas.slice(15, 16).map((datas, index) => (
+                            <img
+                                className="max-h-[490px] m-auto rounded-[27px] px-[5px] max-w-[400px] w-[100%] h-[100%]"
+                                key={index}
+                                src={datas.image} alt="" />
+                        ))
+                    }
+                </div>
             </Slider>
         </div>
 
