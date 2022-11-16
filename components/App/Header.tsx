@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react'
 // Components
 import BrandName from "./components/BrandName"
 import NavList from "./components/NavList"
+import Announcement from '../Others/Announcement'
 
 
 const Header = () => {
@@ -27,8 +28,9 @@ const Header = () => {
         <>
             <header
                 id="Header"
-                className={`flex z-[99] fixed w-[100%] opacity-[0.9] ${navbar ? 'bg-[#261C2C] shadow-[_0_0_5px_black] min-h-[80px] nav-trans' : ' bg-[transparent] min-h-[90px] nav-trans'}`}>
-                <div className=" flex justify-between max-w-[1200px] 768max:max-w-[600px] px-[2rem] w-[1200px] m-auto items-center">
+                className={`flex flex-col bg-[#3e2c41] z-[99] fixed w-[100%] min-h-[80px] ${navbar ? 'shadow-[_0_0_0.75px_whitesmoke]' : ''}`}>
+                <Announcement />
+                <div className=" flex py-[25px] justify-between max-w-[1200px] 768max:max-w-[600px] px-[2rem] w-[1200px] m-auto items-center">
                     <BrandName />
                     <NavList />
                 </div>
