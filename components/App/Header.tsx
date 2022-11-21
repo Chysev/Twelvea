@@ -30,7 +30,7 @@ const Header = () => {
                 id="Header"
                 className={`flex flex-col bg-[#3e2c41] z-[99] fixed w-[100%] min-h-[80px] ${navbar ? 'shadow-[_0_0_0.75px_whitesmoke]' : ''}`}>
                 <Announcement />
-                <div className=" flex py-[25px] justify-between max-w-[1200px] 768max:max-w-[600px] px-[2rem] w-[1200px] m-auto items-center">
+                <div className="flex py-[25px] justify-between max-w-[1200px] px-[2rem] w-[100%] m-auto items-center">
                     <BrandName />
                     <NavList />
                 </div>
