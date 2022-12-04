@@ -2,6 +2,7 @@ import Head from "next/head"
 
 // Component
 import Layer from "../components/LandingPage/Layer"
+import Countdown from "../components/Others/CountDown"
 
 
 const Home = () => {
@@ -13,7 +14,8 @@ const Home = () => {
                     Twelve A | Home
                 </title>
             </Head>
-            <Layer />
+            {/* <Layer /> */}
+            <Countdown />
         </>
     )
 
