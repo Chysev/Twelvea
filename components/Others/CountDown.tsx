@@ -3,17 +3,14 @@ import { useState, useEffect } from "react";
 
 
 const Countdown = () => {
-    // Set the date we're counting down to (Christmas)
     const release: any = new Date("Jun 1, 2023");
 
-    // Set the initial values for the countdown
     const [days, setDays] = useState(0);
     const [hours, setHours] = useState(0);
     const [minutes, setMinutes] = useState(0);
     const [seconds, setSeconds] = useState(0);
 
     useEffect(() => {
-        // Calculate the countdown every 1 second
         const interval = setInterval(() => {
 
             const now = new Date().getTime();
@@ -31,7 +28,6 @@ const Countdown = () => {
         }, 1000);
 
         return () => {
-            // Clear the interval when the component is unmounted
             clearInterval(interval);
         };
     });
