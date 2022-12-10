@@ -9,7 +9,7 @@ const Memories = () => {
     const settings = {
         className: "m-auto w-[65%] py-[2.5rem] 1024max:w-[80%] grid gap-[.3rem] pt-[5rem]",
         dots: false,
-        autoplay: true,
+        autoplay: false,
         speed: 1000,
         autoplaySpeed: 3000,
         infinite: true,
